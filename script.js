@@ -17,6 +17,7 @@ const questions = [
             { text: ".javascript", correct: false },
             { text: ".json", correct: false },
             { text: ".jsx", correct: false },
+            
         ]
     },
     {
