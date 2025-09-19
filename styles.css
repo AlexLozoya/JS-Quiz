@@ -1,3 +1,4 @@
+/* Whole page Styles */
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ body {
     background-color: #5f84c0 ;
     
 }
+/* Container Styles */
 .container {
     width: 80%;
     background: #ffff;
@@ -28,7 +30,7 @@ body {
     text-align: center;
     min-height: 100px;
 }
-
+/* Quiz Styles */
 .quiz {
   padding: 20px 0;
 }
@@ -38,6 +40,7 @@ body {
     color: #001e4d;
 
 }
+/* Button Styles */
 .btn{
   background: #fff;
   color: #222;
@@ -49,7 +52,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
   transition: 0.3s;
-  border: 2px solid #001e4d; /* Add this line for visible borders */
+  border: 2px solid #001e4d; 
 }
 .btn:hover:not([disabled]){
   background: #222;
@@ -61,7 +64,7 @@ body {
   cursor: no-drop;
   
 }
-
+/* Next Button Styles */
 #next-btn{
   background: #001e4d;
   color: #ffff;
