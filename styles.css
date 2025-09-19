@@ -81,3 +81,19 @@ body {
 .incorrect{
   background: #ff1313 ;
 }
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    width: 98%;
+    padding: 10px;
+    margin: 20px auto 0;
+  }
+  .btn {
+    font-size: 16px;
+    padding: 12px;
+  }
+  .quiz h2 {
+    font-size: 16px;
+  }
+}
