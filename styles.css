@@ -39,7 +39,7 @@ body {
 
 }
 .btn{
-  background: #ffff;
+  background: #fff;
   color: #222;
   font-weight: 500;
   width: 100%;
@@ -49,6 +49,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
   transition: 0.3s;
+  border: 2px solid #001e4d; /* Add this line for visible borders */
 }
 .btn:hover:not([disabled]){
   background: #222;
